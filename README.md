@@ -4,7 +4,7 @@ A set of reinforcement learning techniques used to design controllers to run and
 <br>
 The Cart Pole environment can be better explained or reviwed by going through the priginal souce code by Open AI Gym <a href="https://github.com/openai/gym/blob/master/gym/envs/classic_control/cartpole.py">here</a>.
 <br><br>
-In this environment, there exists a pole on a frictionless wire/line, and the goal is to keep it moving without collapsing for as long as possible. The reward for standing each timestep is +1, and if the pole moves more than 15 degrees from the vertical, the episode ends (so basically no negative rewards). There are only two possible actions that are moving the point on the pole on the wire/line right or left, every timestep.
+In this environment, there exists a pole on a mobile system (with minimal friction), and the goal is to keep it moving without collapsing for as long as possible. The reward for standing each timestep is +1, and if the pole moves more than 15 degrees from the vertical, the episode ends (so basically no negative rewards). There are only two possible actions that are moving the point on the pole on the mobile system right or left, every timestep.
 <br><br>
 This environment has been solved with the objective of reaching maximum reward (thus reaching the final goal), and has been done so, by using three deep reinforcement learning techniques (all use a neural network function approximator having same architecture, mapping form state to action/policy), each trained on 1,000 episodes.
 <br><br>
